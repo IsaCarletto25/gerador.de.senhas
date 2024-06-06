@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
 :root{
     --branco: white;
     --cor-de-fundo: #00162E;
@@ -5,10 +7,22 @@
     --fundo-senha: #00244D;
     --fundo-texto: #001E40;
     --borda: #0075FF;
+    --lato: "Lato", sans-serif;
+
 }
 
 body{
     color: var(--branco);
     background-color: var(--cor-de-fundo);
+    font-family: var(--lato);
 
+}
+
+.titulo-principal{
+    font-family: var(--lato);
+    font-size: 32px;
+}
+
+.titulo-secundario{
+    font-size: 24px;
 }
